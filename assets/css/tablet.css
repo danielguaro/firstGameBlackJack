@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+.main-game {
+    width: 50%;
+}
+.main-rules{
+    display: flex;
+    width: 40%;
+}

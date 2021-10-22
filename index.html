@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/tablet.css" media="screen and (min-width: 640px")>
+    <title>Juego Blackjack</title>
+</head>
+<body>
+    <header>
+        <nav >
+            <h1>Blackjack</h1>
+            <h2>Welcome to my first game </h2>
+        </nav>
+    </header>
+    <main>
+        <section class="main-title">
+            <h3> The name of this game is called Black Jack as you saw it on the tittle, I hope you enjoy it. </h3>
+        </section>
+        <nav class="main-rules">
+            <ul class="ul-rules">
+                <li class="tittle-rules">How to play</li>
+                <li class="rules">The idea es quite easy, you have to make 21 points or at least more than the computer</li>
+                <li class="rules">you pick cards pressing the button “Request”, but remember you can´t have more than 21, if you do that, you´ll lose</li>
+                <li class="rules">you can also stop whenever you want pressing the button “Stop”</li>
+            </ul>
+        </nav>
+        <section class="main-game">
+            <div class="buttons-game">
+                <button id="bnt-new">New game</button>
+                <button id="bnt-request">Request</button>
+                <button id="bnt-stop">Stop</button>
+            </div>
+            <div class="gamming">
+                <h1>Player 1 - <small>0</small></h1>
+                <div id="player-cards">
+                    <!-- <img class="cards" src="./assets/cartas/cartas/2C.png" alt=""> -->
+                </div>
+            </div>
+            <div class="gamming">
+                <h1>Computer - <small>0</small></h1>
+                <div id="computer-cards">
+                    <!-- <img class="cards" src="./assets/cartas/cartas/9S.png" alt="">-->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>hope did you enjoy it, see you on other game</h3>
+    </footer>
+    <script src="./assets/js/underscore-min.js"></script> <!--Para utilizar libreria del _.shuffle-->
+    <script src="./assets/js/game.js"></script>
+</body>
+</html>
